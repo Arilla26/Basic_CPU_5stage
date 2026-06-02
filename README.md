@@ -4,12 +4,6 @@ Một bộ vi xử lý RISC-V 32-bit (tập con RV32I) được mô tả bằng 
 tổ chức theo 5 khối chức năng IF–ID–EX–MEM–WB nhưng **thực thi tuần tự một lệnh mỗi
 chu kỳ clock** (single-cycle, không có thanh ghi pipeline giữa các stage).
 
-```bash
-git clone https://github.com/Arilla26/Single-Cycle-RISC-V-Processor.git
-```
-
----
-
 ## 1. Tổng quan kiến trúc
 
 Thiết kế tách thành 5 module theo từng giai đoạn xử lý lệnh, được nối lại trong
